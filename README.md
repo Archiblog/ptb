@@ -1,4 +1,4 @@
-# PTb-further-ongoing-research
+# PTb
 
 The Potteries Thinkbelt study was a working hypothesis constructed by Cedric Price as a basis for further ongoing research
 
