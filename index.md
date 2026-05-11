@@ -3,6 +3,9 @@
 ###### Cedric Price
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+
+<img src="item_25538.png" style="width: 50%;">
+  
   <div>** • Map of the PTb showing main routes, transfer, faculty and housing areas—Reproduced from GitHub
 
 Learn More
