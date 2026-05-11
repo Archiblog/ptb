@@ -4,7 +4,7 @@
 
 <div style="display: flex; justify-content: space-between;">
   <img src="item_27003.png" style="width: 33%;">
-  <img src="item_27003.png" style="width: 3%;">
+  <img src="item_27003.png" style="width: 33%;">
   <img src="item_27003.png" style="width: 33%;">
 </div>
 
