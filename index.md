@@ -4,6 +4,19 @@
 
 <img src="item_27003.png" style="border-radius: 10px;">
 
+div {
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+div.ex1 {
+    background-color: green;
+    border-radius: 20px;
+}
+
 
 <div style="display: flex; justify-content: space-between;">
   <img src="item_27003.png" style="width: 23%;">
