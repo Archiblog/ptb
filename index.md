@@ -2,6 +2,32 @@
 #### A plan for an advanced educational industry in North Staffordshire
 ###### Cedric Price
 
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+  <div>** • Map of the PTb showing main routes, transfer, faculty and housing areas—Reproduced from GitHub
+
+Learn More
+
+On 1 August 2024 GitHub featured a mockup of an interactive map of Cedric Price's Potteries Thinkbelt.
+The Potteries Thinkbelt study by Cedric Price was originally drafted in February 1966 in an unpublished report, namely:—
+
+"Potteries Think Belt: A plan for the establishment of a major advanced educational industry in North Staffordshire"
+(DR2004:0089, 'Potteries Think Belt', Cedric Price fonds, Canadian Centre for Architecture)**</div>
+  <div>**FOREWORD
+On 16 June 2024 I wrote to the Canadian Centre for Architecture (CCA) asking:—
+
+"...is the content of the copy of the report entitled 'Potteries Think Belt: A plan for the establishment of a major advanced educational industry in North Staffordshire' (Reference. Number: DR2004: 0089) the same as the content published in Architectural Design, October 1966?"
+On 26 June 2024, I received a reply from the CCA offering to send me a PDF document containing reference images of the report by the end of July. In the event, the file was shared with me on 8 August 2024.
+
+Thus this article is able to take as its starting point the content of the report, an unpublished manuscript completed in February 1966, and compare it with the content of the article published in Architectural Design in October 1966.
+
+It assumes:—
+
+... that the Potteries Thinkbelt study was a working hypothesis constructed by Cedric Price as a basis for further ongoing research.
+For the purposes of this article I have provided facsimiles of both the report and the article together with extracts from research notes picking out the main points.**</div>
+</div>
+
+
+
  • Map of the PTb showing main routes, transfer, faculty and housing areas—Reproduced from GitHub
 
 Learn More
