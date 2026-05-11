@@ -2,6 +2,9 @@
 #### A plan for an advanced educational industry in North Staffordshire
 ###### Cedric Price
 
+<img src="item_27003.png" style="border-radius: 10px;">
+
+
 <div style="display: flex; justify-content: space-between;">
   <img src="item_27003.png" style="width: 23%;">
   <img src="item_27003.png" style="width: 23%;">
