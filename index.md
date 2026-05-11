@@ -4,11 +4,11 @@
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
 
-<img src="item_25538.png" style="width: 50%;">
+<img src="item_25538.png" style="width: 100%;">
   
   <div>** • Map of the PTb showing main routes, transfer, faculty and housing areas—Reproduced from GitHub
 
-Learn More
+[Learn More](https://archiblog.github.io/map-of-the-ptb/#12/53.0156/-2.1920)
 
 On 1 August 2024 GitHub featured a mockup of an interactive map of Cedric Price's Potteries Thinkbelt.
 The Potteries Thinkbelt study by Cedric Price was originally drafted in February 1966 in an unpublished report, namely:—
