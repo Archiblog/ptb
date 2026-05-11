@@ -19,13 +19,13 @@ div.ex1 {
 
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="tem_27003-modified.png
+  <img src="item_27003-modified.png
 " style="width: 23%;">
-  <img src="tem_27003-modified.png
+  <img src="item_27003-modified.png
 " style="width: 23%;">
-  <img src="tem_27003-modified.png
+  <img src="item_27003-modified.png
 " style="width: 23%;">
-  <img src="tem_27003-modified.png
+  <img src="item_27003-modified.png
 " style="width: 23%;">
 </div>
 
