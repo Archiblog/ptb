@@ -3,7 +3,7 @@
 ###### Cedric Price
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="item_27003" style="width: 23%;">
+  <img src="item_27003.png" style="width: 23%;">
   <img src="image2.png" style="width: 23%;">
   <img src="image3.png" style="width: 23%;">
   <img src="image4.png" style="width: 23%;">
