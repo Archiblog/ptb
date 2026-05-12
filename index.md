@@ -10,7 +10,7 @@ This is the left column content.
 
 <img src="item_25538.png" style="width: 100%;">
   
-  <div>** • Map of the PTb showing main routes, transfer, faculty and housing areas—Reproduced from GitHub
+  <div>• Map of the PTb showing main routes, transfer, faculty and housing areas—Reproduced from GitHub
 
 [Learn More](https://archiblog.github.io/map-of-the-ptb/#12/53.0156/-2.1920)
 </td>
@@ -21,7 +21,7 @@ This is the left column content.
 
 This is the right column content.
 
-## FOREWORD
+<p>## FOREWORD<br>
 
 On 16 June 2024 I wrote to the Canadian Centre for Architecture (CCA) asking:—
 
