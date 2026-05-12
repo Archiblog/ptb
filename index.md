@@ -4,28 +4,31 @@
 <tr>
 <td width="50%" valign="top">
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-  <div>
-<img src="item_25538.png" style="width: 100%;">
-  
-  <div>• Map of the PTb showing main routes, transfer, faculty and housing areas—Reproduced from GitHub
+## Left Column
 
-[Learn More](https://archiblog.github.io/map-of-the-ptb/#12/53.0156/-2.1920)
+This is the left column content.
 
-On 1 August 2024 GitHub featured a mockup of an interactive map of Cedric Price's Potteries Thinkbelt.
+You can include:
 
+- lists
+- images
+- links
+- normal Markdown
+
+![Image](image.jpg)
 
 </td>
 
 <td width="50%" valign="top">
 
-## FOREWORD
+## Right Column
 
-On 16 June 2024 I wrote to the Canadian Centre for Architecture (CCA) asking:—
+This is the right column content.
 
-    On 16 June 2024 I wrote to the Canadian Centre for Architecture (CCA) asking:—
+You can place chronology, notes, quotations, etc.
+
+> Cedric Price quotation here.
 
 </td>
 </tr>
 </table>
-
