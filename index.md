@@ -13,7 +13,7 @@ EXAMPLE TEXT
 <img width="441" height="1000">
 <p> 
 <small>
-EXAMPLE TEXT
+On 1 August 2024 GitHub featured a mockup of an interactive map of Cedric Price's Potteries Thinkbelt. The Potteries Thinkbelt study by Cedric Price was originally drafted in February 1966 in an unpublished report, namely:— "Potteries Think Belt: A plan for the establishment of a major advanced educational industry in North Staffordshire" (DR2004:0089, 'Potteries Think Belt', Cedric Price fonds, Canadian Centre for Architecture) "The only purchaser of the full Potteries Thinkbelt documentation was the Ministry of Housing and Local Government who bought the report and copies of every single drawing including the photo-montages." (Royston Landau, 1984) "The major portion of the Cedric Price Archive is held at the Canadian Centre for Architecture in Montréal, to which it was transferred in a number of consignments between 1995 and 2004." (St John's College Library, Cedric Price Collection, 2024) The full Potteries Thinkbelt documentation, including three bound copies of the report and all of the drawings, is held in the Cedric Price fonds, where conditions governing access are by appointment only. This presents obvious difficulties for those of us without direct access to the fonds. 
 </small>
 </p>
 </th>
