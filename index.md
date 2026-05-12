@@ -21,7 +21,7 @@ This is the left column content.
 
 This is the right column content.
 
-<p>**FOREWORD**<br>
+<p></h2>FOREWORD</h2><br>
 
 On 16 June 2024 I wrote to the Canadian Centre for Architecture (CCA) asking:—
 
