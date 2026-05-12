@@ -10,7 +10,7 @@ This is the left column content.
 
 <img src="item_25538.png" style="width: 100%;">
   
-  <div>• Map of the PTb showing main routes, transfer, faculty and housing areas—Reproduced from GitHub
+  <div>• Map of the PTb showing main routes, transfer, faculty and housing areas—Reproduced from GitHub<br>
 
 [Learn More](https://archiblog.github.io/map-of-the-ptb/#12/53.0156/-2.1920)
 </td>
