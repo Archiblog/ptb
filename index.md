@@ -19,7 +19,10 @@ This is the left column content.
 
 ## Right Column
 
-FOREWORD
+This is the right column content.
+
+## FOREWORD
+
 On 16 June 2024 I wrote to the Canadian Centre for Architecture (CCA) asking:—
 
 </td>
