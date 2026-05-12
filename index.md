@@ -58,33 +58,6 @@ It assumes:—
 ... that the Potteries Thinkbelt study was a working hypothesis constructed by Cedric Price as a basis for further ongoing research.
 For the purposes of this article I have provided facsimiles of both the report and the article together with extracts from research notes picking out the main points.
 
-FACSIMILES OF THE KEY DOCUMENTS
+### FACSIMILES OF THE KEY DOCUMENTS
 
-
-
-<div style="display: flex; justify-content: space-between;">
-  <img src="item_27003.png" style="width: 33%;">
-  <img src="item_27003.png" style="width: 33%;">
-  <img src="item_27003.png" style="width: 33%;">
-</div>
-
-
-<div style="display: flex; justify-content: space-between;">
-  <img src="item_27003-modified.png" style="width: 23%;">
-  <img src="item_27003-modified.png" style="width: 23%;">
-  <img src="item_27003-modified.png" style="width: 23%;">
-  <img src="item_27003-modified.png" style="width: 23%;">
-</div>
-
-<div style="display: flex; justify-content: space-between;">
-  <img src="item_27003.png" style="width: 23%;">
-  <img src="item_27003.png" style="width: 23%;">
-  <img src="item_27003.png" style="width: 23%;">
-  <img src="item_27003.png" style="width: 23%;">
-</div>
-
-
-[Home](https://archiblog.github.io) | [Fun Palace](https://archiblog.github.io/fun-palace) | [PTb](https://archiblog.github.io/ptb) | [BMI](https://archiblog.github.io/bmi/) | [Edukit](https://archiblog.github.io/edukit/) | [Repos](https://github.com/Archiblog/?tab=repositories) | [Biography](https://github.com/Archiblog) 
-
-
-[Map of the PTb](https://archiblog.github.io/map-of-the-ptb/#12/53.0156/-2.1920) showing showing main routes, transfer, faculty and housing areas—reproduced from Archiblog repository
+map-of-the-ptb/#12/53.0156/-2.1920) showing showing main routes, transfer, faculty and housing areas—reproduced from Archiblog repository
