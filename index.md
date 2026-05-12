@@ -6,213 +6,226 @@
   <title>Potteries Thinkbelt study: Further ongoing research</title>
   <style>
     :root{
-      --text: #111;
-      --link: #1a33cc;
-      --border: #d9d9d9;
-      --panel: #ffffff;
-      --muted: #666;
-      --toc-blue: #1f33d6;
-      --bg: #fff;
+      --text:#111;
+      --muted:#666;
+      --link:#1a33cc;
+      --border:#d9d9d9;
+      --panel:#fff;
+      --bg:#fff;
+    }
+
+    *{
+      box-sizing:border-box;
     }
 
     body{
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font: 16px/1.45 Arial, Helvetica, sans-serif;
-    }
-
-    .page{
-      max-width: 1400px;
-      margin: 0 auto;
-      padding: 12px;
-    }
-
-    .grid{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-      align-items: start;
-    }
-
-    .col{
-      border-left: 1px solid var(--border);
-      border-right: 1px solid var(--border);
-      padding: 12px;
-      min-height: 100%;
-      background: #fff;
-    }
-
-    .box{
-      border: 1px solid var(--border);
-      background: var(--panel);
-      padding: 12px;
-      margin-bottom: 18px;
-    }
-
-    .map-box img{
-      width: 100%;
-      height: auto;
-      display: block;
-      border: 1px solid #eee;
-      margin-bottom: 8px;
-    }
-
-    .caption{
-      font-size: 14px;
-      margin: 0 0 10px 0;
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font:16px/1.45 Arial, Helvetica, sans-serif;
     }
 
     a{
-      color: var(--link);
-      text-decoration: none;
+      color:var(--link);
+      text-decoration:none;
     }
+
     a:hover{
-      text-decoration: underline;
+      text-decoration:underline;
+    }
+
+    .page{
+      max-width:1400px;
+      margin:0 auto;
+      padding:18px 14px 28px;
+    }
+
+    .page-header{
+      padding:0 0 12px;
+      margin:0 0 18px;
+      border-bottom:1px solid #ececec;
+    }
+
+    .page-header h1{
+      margin:0;
+      font-size:40px;
+      line-height:1.05;
+      font-weight:700;
+      color:#1971d4;
+      letter-spacing:-0.02em;
+    }
+
+    .columns{
+      display:flex;
+      gap:18px;
+      align-items:flex-start;
+    }
+
+    .left-column{
+      flex:0 0 48%;
+      min-width:0;
+    }
+
+    .right-column{
+      flex:1 1 52%;
+      min-width:0;
+    }
+
+    .box{
+      border:1px solid var(--border);
+      background:var(--panel);
+      padding:12px;
+      margin:0 0 18px 0;
+    }
+
+    .map-box img{
+      display:block;
+      width:100%;
+      height:auto;
+      margin:0 0 8px 0;
+    }
+
+    .caption{
+      margin:0 0 10px 0;
+      font-size:14px;
     }
 
     .small{
-      font-size: 14px;
-      color: var(--text);
+      font-size:14px;
+      line-height:1.45;
     }
 
-    .quote-box{
-      border: 1px solid var(--border);
-      background: #fff;
-      padding: 12px;
-      margin-bottom: 18px;
+    .quote-box ul,
+    .foreword ul{
+      margin:0;
+      padding-left:20px;
     }
 
-    .quote-box ul{
-      margin: 0;
-      padding-left: 18px;
-    }
-
-    .quote-box li{
-      margin: 0 0 10px 0;
+    .quote-box li,
+    .foreword li{
+      margin:0 0 10px 0;
     }
 
     .toc{
-      border: 1px solid var(--border);
-      background: #fff;
-      padding: 18px 16px;
+      border:1px solid var(--border);
+      background:#fff;
+      padding:18px 16px;
+      margin:0 0 18px 0;
     }
 
     .toc h2{
-      margin: 0 0 8px 0;
-      font-size: 34px;
-      line-height: 1.05;
-      font-weight: 700;
+      margin:0 0 6px 0;
+      font-size:34px;
+      line-height:1.05;
+      font-weight:700;
     }
 
     .toc .hide{
-      color: var(--link);
-      font-size: 16px;
-      margin-bottom: 14px;
-      display: inline-block;
+      display:inline-block;
+      margin:0 0 12px 0;
+      font-size:16px;
     }
 
     .toc ol{
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      counter-reset: item;
+      list-style:none;
+      counter-reset:item;
+      padding:0;
+      margin:0;
     }
 
     .toc li{
-      counter-increment: item;
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      margin: 0 0 7px 0;
-      color: var(--toc-blue);
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 1.15;
+      counter-increment:item;
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+      margin:0 0 7px 0;
+      color:#1f33d6;
+      font-weight:500;
+      font-size:18px;
+      line-height:1.15;
     }
 
     .toc li::before{
-      content: "■";
-      color: #8b8b8b;
-      font-size: 12px;
-      line-height: 1.6;
-      flex: 0 0 auto;
-      margin-top: 2px;
+      content:"■";
+      color:#8b8b8b;
+      font-size:12px;
+      line-height:1.6;
+      margin-top:2px;
+      flex:0 0 auto;
     }
 
     .toc .num{
-      min-width: 34px;
-      color: var(--toc-blue);
-      font-weight: 700;
-      text-align: right;
+      min-width:34px;
+      text-align:right;
+      color:#1f33d6;
+      font-weight:700;
+      flex:0 0 auto;
     }
 
     .toc .text{
-      flex: 1;
+      flex:1 1 auto;
     }
 
     .section-title{
-      font-size: 24px;
-      font-weight: 700;
-      margin: 18px 0 10px;
+      margin:18px 0 10px;
+      font-size:24px;
+      font-weight:700;
     }
 
     .foreword p{
-      margin: 0 0 16px 0;
-      font-size: 18px;
-      line-height: 1.45;
+      margin:0 0 16px 0;
+      font-size:18px;
+      line-height:1.45;
     }
 
-    .foreword ul{
-      margin: 0 0 16px 0;
-      padding-left: 20px;
-    }
-
-    .foreword li{
-      margin-bottom: 10px;
-    }
-
-    .note{
-      font-size: 15px;
-      color: var(--muted);
+    .spacer{
+      height:8px;
     }
 
     @media (max-width: 1000px){
-      .grid{
-        grid-template-columns: 1fr;
+      .columns{
+        flex-direction:column;
       }
+
+      .left-column,
+      .right-column{
+        flex:1 1 auto;
+        width:100%;
+      }
+
+      .page-header h1{
+        font-size:32px;
+      }
+
       .toc h2{
-        font-size: 28px;
+        font-size:28px;
       }
     }
   </style>
 </head>
 <body>
   <div class="page">
-    <div class="grid">
-      <!-- LEFT COLUMN -->
-      <div class="col">
-        <div class="map-box box">
-          <img src="item_25538.png" alt="Map of the Potteries Thinkbelt showing main routes, transfer, faculty and housing areas" />
-          <p class="caption">
-            • <strong>Map</strong> of the PTb showing main routes, transfer, faculty and housing areas —
-            Reproduced from GitHub
-          </p>
+    <header class="page-header">
+      <h1>Potteries Thinkbelt study: Further ongoing research</h1>
+    </header>
+
+    <main class="columns">
+      <section class="left-column">
+        <div class="box map-box">
+          <img src="item_25538.png" alt="Map of the PTb showing main routes, transfer, faculty and housing areas" />
+          <p class="caption">• Map of the PTb showing main routes, transfer, faculty and housing areas — Reproduced from GitHub</p>
           <p class="small"><a href="https://archiblog.github.io/map-of-the-ptb/#12/53.0156/-2.1920">Learn More</a></p>
         </div>
 
-        <div class="quote-box">
+        <div class="box quote-box">
           <ul>
-            <li>
-              On 1 August 2024 GitHub featured a mockup of an interactive
-              <a href="#">map of Cedric Price's Potteries Thinkbelt</a>.
-            </li>
+            <li>On 1 August 2024 GitHub featured a mockup of an interactive map of Cedric Price's Potteries Thinkbelt.</li>
           </ul>
         </div>
 
-        <div class="quote-box">
+        <div class="box quote-box">
           <p class="small" style="margin:0 0 10px 0;">
-            The <a href="#">Potteries Thinkbelt study</a> by <a href="#">Cedric Price</a> was originally drafted in February 1966 in an unpublished <a href="#">report</a>, namely:—
+            The Potteries Thinkbelt study by Cedric Price was originally drafted in February 1966 in an unpublished report, namely:—
           </p>
           <ul>
             <li>
@@ -222,34 +235,33 @@
           </ul>
         </div>
 
-        <div class="quote-box">
+        <div class="box quote-box">
           <ul>
             <li>
-              “The only <a href="#">purchaser</a> of the full <a href="#">Potteries Thinkbelt</a> documentation was the Ministry of Housing and Local Government who bought the report and copies of every single drawing including the photo-montages.”
+              “The only purchaser of the full Potteries Thinkbelt documentation was the Ministry of Housing and Local Government who bought the report and copies of every single drawing including the photo-montages.”
               <br>(Royston Landau, 1984)
             </li>
           </ul>
         </div>
 
-        <div class="quote-box">
+        <div class="box quote-box">
           <ul>
             <li>
-              “The major portion of the <a href="#">Cedric Price</a> Archive is held at the Canadian Centre for <a href="#">Architecture</a> in Montréal, to which it was transferred in a number of <a href="#">consignments</a> between 1995 and 2004.”
+              “The major portion of the Cedric Price Archive is held at the Canadian Centre for Architecture in Montréal, to which it was transferred in a number of consignments between 1995 and 2004.”
               <br>(St John's College Library, Cedric Price Collection, 2024)
             </li>
           </ul>
         </div>
 
-        <div class="quote-box">
+        <div class="box quote-box">
           <p class="small" style="margin:0;">
-            The full <a href="#">Potteries Thinkbelt</a> documentation, including three bound copies of the <a href="#">report</a> and all of the <a href="#">drawings</a>, is held in the Cedric Price fonds, where <a href="#">conditions</a> governing <a href="#">access</a> are by appointment only. This presents obvious difficulties for those of us without direct access to the fonds.
+            The full Potteries Thinkbelt documentation, including three bound copies of the report and all of the drawings, is held in the Cedric Price fonds, where conditions governing access are by appointment only. This presents obvious difficulties for those of us without direct access to the fonds.
           </p>
         </div>
-      </div>
+      </section>
 
-      <!-- RIGHT COLUMN -->
-      <div class="col">
-        <div class="toc">
+      <section class="right-column">
+        <nav class="toc">
           <h2>Contents</h2>
           <a class="hide" href="#">[hide]</a>
           <ol>
@@ -291,50 +303,31 @@
             <li><span class="num">36</span><span class="text">FURTHER ONGOING RESEARCH</span></li>
             <li><span class="num">37</span><span class="text">Related articles on Designing Buildings</span></li>
           </ol>
-        </div>
+        </nav>
 
         <h2 class="section-title">FOREWORD</h2>
 
-        <div class="foreword">
-          <p>
-            On 16 June 2024 I wrote to the Canadian Centre for Architecture (CCA) asking:—
-          </p>
-
+        <article class="foreword">
+          <p>On 16 June 2024 I wrote to the Canadian Centre for Architecture (CCA) asking:—</p>
           <ul>
             <li>
-              “...is the content of the copy of the <a href="#">report</a> entitled
-              'Potteries Think Belt: <a href="#">A plan</a> for the establishment of a major advanced educational industry in North Staffordshire'
-              (Reference. Number: DR2004: 0089) the same as the content published in
-              <a href="#">Architectural Design</a>, October 1966?”
+              “...is the content of the copy of the report entitled 'Potteries Think Belt: A plan for the establishment of a major advanced educational industry in North Staffordshire' (Reference. Number: DR2004: 0089) the same as the content published in Architectural Design, October 1966?”
             </li>
           </ul>
 
-          <p>
-            On 26 June 2024, I received a reply from the CCA offering to send me a PDF
-            <a href="#">document</a> containing reference images of the <a href="#">report</a> by the end of July.
-            In the event, the file was shared with me on 8 August 2024.
-          </p>
+          <p>On 26 June 2024, I received a reply from the CCA offering to send me a PDF document containing reference images of the report by the end of July. In the event, the file was shared with me on 8 August 2024.</p>
 
-          <p>
-            Thus this article is able to take as its starting point the content of the <a href="#">report</a>,
-            an unpublished manuscript completed in February 1966, and compare it with the content of the
-            article published in <a href="#">Architectural Design</a> in October 1966.
-          </p>
+          <p>Thus this article is able to take as its starting point the content of the report, an unpublished manuscript completed in February 1966, and compare it with the content of the article published in Architectural Design in October 1966.</p>
 
           <p>It assumes:—</p>
-
           <ul>
-            <li>
-              ... that the <a href="#">Potteries Thinkbelt study</a> was a working hypothesis constructed by <a href="#">Cedric Price</a> as a basis for further ongoing research.
-            </li>
+            <li>... that the Potteries Thinkbelt study was a working hypothesis constructed by Cedric Price as a basis for further ongoing research.</li>
           </ul>
 
-          <p>
-            For the purposes of this article I have provided facsimiles of both the <a href="#">report</a> and the article together with extracts from <a href="#">research notes</a> picking out the main <a href="#">points</a>.
-          </p>
-        </div>
-      </div>
-    </div>
+          <p>For the purposes of this article I have provided facsimiles of both the report and the article together with extracts from research notes picking out the main points.</p>
+        </article>
+      </section>
+    </main>
   </div>
 </body>
 </html>
